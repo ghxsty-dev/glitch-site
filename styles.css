@@ -79,7 +79,11 @@ body {
 }
 
 .app-title {
+<<<<<<< HEAD
     font-size: 2rem;
+=======
+    font-size: 1.5rem;
+>>>>>>> 5e4769a57188cd6aa8e395b0781b24ba56d6c2fe
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -161,6 +165,7 @@ body {
 
 @keyframes glitch-animation {
     0%, 100% {
+<<<<<<< HEAD
         text-shadow: -2px 0 #ffffff, 2px 0 #7c7c7c;
         transform: translate(0);
     }
@@ -178,6 +183,25 @@ body {
     }
     80% {
         text-shadow: -2px 0 #ffffff, 2px 0 #7c7c7c;
+=======
+        text-shadow: -2px 0 #ff00ff, 2px 0 #00ffff;
+        transform: translate(0);
+    }
+    20% {
+        text-shadow: -2px 0 #ff00ff, 2px 0 #00ffff;
+        transform: translate(-2px, 2px);
+    }
+    40% {
+        text-shadow: -2px 0 #ff00ff, 2px 0 #00ffff;
+        transform: translate(-2px, -2px);
+    }
+    60% {
+        text-shadow: -2px 0 #ff00ff, 2px 0 #00ffff;
+        transform: translate(2px, 2px);
+    }
+    80% {
+        text-shadow: -2px 0 #ff00ff, 2px 0 #00ffff;
+>>>>>>> 5e4769a57188cd6aa8e395b0781b24ba56d6c2fe
         transform: translate(2px, -2px);
     }
 }
