@@ -1,81 +1,93 @@
-<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glitch Music - Windows Masaüstü Müzik Uygulaması</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glitch Music</title>
+  <link rel="stylesheet" href="./styles.css?v=20260511" />
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo-container">
-                <img src="https://cdn.discordapp.com/attachments/1495430127817850970/1495499306550034472/GLITCHLOGO.png?ex=6a02d003&is=6a017e83&hm=9dfbde77e4045801ad616bc5bd3a927a59cd246b8ad5d2d2682829d9ed52354d" alt="Glitch Music Logo" class="logo">
-                <span class="app-title">GLITCH MUSIC</span>
-            </div>
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Ana Sayfa</a></li>
-                <li><a href="download.html">İndir</a></li>
-                <li><a href="about.html">Hakkında</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <section class="hero">
-        <div class="hero-content">
-            <div class="glitch-text" data-text="GLITCH MUSIC">GLITCH MUSIC</div>
-            <p class="subtitle">Windows İçin Güçlü ve Modern Müzik Deneyimi</p>
-            <p class="description">Glitch Music; hızlı, sade ve uygulama odaklı yapısıyla arşivini yönetmen, müziğini açman ve masaüstünde temiz bir deneyim yaşaman için tasarlandı.</p>
-            <a href="download.html" class="cta-button">Uygulamayı İndir</a>
-        </div>
-        <div class="animated-background">
-            <div class="wave wave1"></div>
-            <div class="wave wave2"></div>
-            <div class="wave wave3"></div>
-        </div>
+  <main class="page single-page">
+    <section class="hero container" id="top">
+      <img class="brand-logo" src="https://cdn.discordapp.com/attachments/1495430127817850970/1495499306550034472/GLITCHLOGO.png?ex=6a02d003&is=6a017e83&hm=9dfbde77e4045801ad616bc5bd3a927a59cd246b8ad5d2d2682829d9ed52354d" alt="Glitch Music logo" />
+      <p class="eyebrow">GLITCH MUSIC</p>
+      <h1>Modern masaüstü müzik deneyimi</h1>
+      <p class="lead">Hızlı, sade ve dikkat dağıtmayan bir arayüzle müzik arşivini kolayca yönet.</p>
+      <div class="actions">
+        <a href="#download" class="btn btn-solid">İndir</a>
+        <a href="#about" class="btn btn-ghost">Hakkında</a>
+      </div>
     </section>
 
-    <section class="features">
-        <h2>Öne Çıkan Özellikler</h2>
-        <div class="features-grid">
-            <div class="feature-card">
-                <div class="feature-icon">♪</div>
-                <h3>Temiz Ses Deneyimi</h3>
-                <p>Favori parçalarını kesintisiz şekilde dinle, masaüstü odaklı oynatıcı ile müziğine anında ulaş.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">⚡</div>
-                <h3>Hızlı Açılış</h3>
-                <p>Uygulama hızlı başlar, arşivini gecikmeden yükler ve günlük kullanımda akıcı bir his verir.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">🎛</div>
-                <h3>Uygulama Odaklı Arayüz</h3>
-                <p>Web hissinden uzak, masaüstüne daha uygun yerleşim ve kontrollere sahip sade bir kullanım sunar.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">📁</div>
-                <h3>Kolay Kütüphane Yönetimi</h3>
-                <p>Şarkılarını düzenle, listelerini oluştur ve kendi müzik arşivini tek yerde yönet.</p>
-            </div>
-        </div>
+    <section id="features" class="section container">
+      <h2>Öne Çıkanlar</h2>
+      <div class="grid cards-4">
+        <article class="card"><h3>Temiz Ses</h3><p>Kesintisiz ve odaklı bir dinleme deneyimi.</p></article>
+        <article class="card"><h3>Hızlı Açılış</h3><p>Uygulama kısa sürede açılır, akıcı çalışır.</p></article>
+        <article class="card"><h3>Sade Arayüz</h3><p>Gereksiz karmaşadan uzak, modern görünüm.</p></article>
+        <article class="card"><h3>Kütüphane Kontrolü</h3><p>Listelerini ve arşivini tek yerde düzenle.</p></article>
+      </div>
     </section>
 
-    <section class="cta-section">
-        <h2>Glitch Music ile Hemen Başla</h2>
-        <p>Windows masaüstü uygulamasını indir, kur ve müzik arşivini daha düzenli bir deneyimle kullan.</p>
-        <a href="download.html" class="cta-button-large">Şimdi İndir</a>
+    <section id="download" class="section container">
+      <h2>İndir</h2>
+      <p class="lead">Ayrı indirme sayfasına gerek yok. Güncel sürüme buradan ulaşabilirsin.</p>
+      <div class="grid cards-2">
+        <article class="card">
+          <h3>Windows Sürümü</h3>
+          <p>Windows 10 ve üzeri ile uyumludur.</p>
+          <a class="btn btn-solid" href="https://github.com/ghxsty-dev/glitch-music/releases" target="_blank" rel="noreferrer">GitHub Releases</a>
+        </article>
+        <article class="card">
+          <h3>Hızlı Kurulum</h3>
+          <ol class="list">
+            <li>Kurulum dosyasını indir.</li>
+            <li>Dosyayı çalıştırıp kurulumu tamamla.</li>
+            <li>Uygulamayı aç ve kütüphaneni ekle.</li>
+          </ol>
+        </article>
+      </div>
     </section>
 
-    <footer class="footer">
-        <div class="footer-content">
-            <p>&copy; 2026 Glitch Music. Tüm hakları saklıdır.</p>
-            <div class="social-links">
-                <a href="https://github.com/ghxsty-dev/glitch-music" target="_blank">GitHub</a>
-            </div>
-        </div>
-    </footer>
+    <section id="about" class="section container">
+      <h2>Hakkında</h2>
+      <p class="lead">Glitch Music, masaüstünde modern ve sade bir müzik deneyimi sunmak için geliştirildi.</p>
+      <div class="grid cards-2">
+        <article class="card">
+          <h3>Misyon</h3>
+          <p>Basitlik, performans ve düzen odaklı bir kullanım sağlamak.</p>
+        </article>
+        <article class="card">
+          <h3>Yaklaşım</h3>
+          <p>Dikkat dağıtmayan arayüz, hızlı akış ve sürekli iyileştirme.</p>
+        </article>
+      </div>
+      <div class="grid cards-2 top-gap">
+        <article class="card">
+          <h3>Neler Sunar?</h3>
+          <ul class="list">
+            <li>Hızlı açılış ve akıcı kullanım</li>
+            <li>Temiz oynatma deneyimi</li>
+            <li>Kolay kütüphane yönetimi</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>İletişim</h3>
+          <p>Öneri ve geri bildirimlerin için projeyi GitHub üzerinden takip edebilirsin.</p>
+          <a class="btn btn-ghost" href="https://github.com/ghxsty-dev/glitch-music" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn btn-ghost" href="https://discord.gg/HKXRTySDhv" target="_blank" rel="noreferrer">Discord</a>
+        </article>
+      </div>
+    </section>
+  </main>
 
-    <script src="script.js"></script>
+  <footer class="footer">
+    <div class="container footer-row">
+      <p>© 2026 GLITCH</p>
+      <a href="#top">Yukarı Çık</a>
+    </div>
+  </footer>
+
+  <script src="./script.js?v=20260511"></script>
 </body>
 </html>
