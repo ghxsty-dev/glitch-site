@@ -79,11 +79,7 @@ body {
 }
 
 .app-title {
-<<<<<<< HEAD
-    font-size: 2rem;
-=======
     font-size: 1.5rem;
->>>>>>> 5e4769a57188cd6aa8e395b0781b24ba56d6c2fe
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -165,43 +161,23 @@ body {
 
 @keyframes glitch-animation {
     0%, 100% {
-<<<<<<< HEAD
-        text-shadow: -2px 0 #ffffff, 2px 0 #7c7c7c;
+        text-shadow: -2px 0 #cfcfcf, 2px 0 #3f3f3f;
         transform: translate(0);
     }
     20% {
-        text-shadow: -2px 0 #ffffff, 2px 0 #7c7c7c;
+        text-shadow: -2px 0 #a1a1a1, 2px 0 #2e2e2e;
         transform: translate(-2px, 2px);
     }
     40% {
-        text-shadow: -2px 0 #ffffff, 2px 0 #7c7c7c;
+        text-shadow: -2px 0 #a5a5a5, 2px 0 #535353;
         transform: translate(-2px, -2px);
     }
     60% {
-        text-shadow: -2px 0 #ffffff, 2px 0 #7c7c7c;
+        text-shadow: -2px 0 #9b9b9b, 2px 0 #242424;
         transform: translate(2px, 2px);
     }
     80% {
-        text-shadow: -2px 0 #ffffff, 2px 0 #7c7c7c;
-=======
-        text-shadow: -2px 0 #ff00ff, 2px 0 #00ffff;
-        transform: translate(0);
-    }
-    20% {
-        text-shadow: -2px 0 #ff00ff, 2px 0 #00ffff;
-        transform: translate(-2px, 2px);
-    }
-    40% {
-        text-shadow: -2px 0 #ff00ff, 2px 0 #00ffff;
-        transform: translate(-2px, -2px);
-    }
-    60% {
-        text-shadow: -2px 0 #ff00ff, 2px 0 #00ffff;
-        transform: translate(2px, 2px);
-    }
-    80% {
-        text-shadow: -2px 0 #ff00ff, 2px 0 #00ffff;
->>>>>>> 5e4769a57188cd6aa8e395b0781b24ba56d6c2fe
+        text-shadow: -2px 0 #cacaca, 2px 0 #3d3d3d;
         transform: translate(2px, -2px);
     }
 }
